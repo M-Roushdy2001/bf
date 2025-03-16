@@ -76,7 +76,7 @@ def t():
 while True:
     try:
         t()
-        time.sleep(20) 
+        time.sleep(30) 
     except:
         pass
       
