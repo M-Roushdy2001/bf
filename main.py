@@ -22,7 +22,7 @@ def generate_code(prefix, total_length=12):
     return prefix + random_part
 
 # الجزء الثابت
-fixed_part = "em1500t28"
+fixed_part = "em1500t2"
 proxies = {
         'http': 'socks5h://localhost:9050',
         'https': 'socks5h://localhost:9050'
@@ -76,7 +76,7 @@ def t():
 while True:
     try:
         t()
-        time.sleep(30) 
+        time.sleep(20) 
     except:
         pass
       
