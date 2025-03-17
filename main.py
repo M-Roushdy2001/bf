@@ -22,7 +22,7 @@ def generate_code(prefix, total_length=12):
     return prefix + random_part
 
 # الجزء الثابت
-fixed_part = "em1500t2"
+fixed_part = "em1000y8"
 proxies = {
         'http': 'socks5h://localhost:9050',
         'https': 'socks5h://localhost:9050'
