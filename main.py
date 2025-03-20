@@ -14,7 +14,7 @@ tok = "7662510170:AAEtrVLxiBS8nAuQws9bes4OPOHI0dduDYM"
 ch_id = "7037898496"
 botA = telebot.TeleBot(token=tok)
 
-def generate_code(prefix, total_length=12):
+def generate_code(prefix, total_length=11):
     # حساب طول الجزء العشوائي
     random_length = total_length - len(prefix)
     # توليد أجزاء عشوائية من الحروف والأرقام
@@ -22,7 +22,7 @@ def generate_code(prefix, total_length=12):
     return prefix + random_part
 
 # الجزء الثابت
-fixed_part = "em1500t2"
+fixed_part = "em125d2"
 proxies = {
         'http': 'socks5h://localhost:9050',
         'https': 'socks5h://localhost:9050'
